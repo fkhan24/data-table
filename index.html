@@ -3,76 +3,78 @@
 <head>
   <meta charset="utf-8">
   <title>Data table</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="widtd=device-widtd,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
-  <main>
-    <div>
+  <main class="pad-t-2 pad-b-2 gutter-1-2">
+    <div class="wrapper">
       <h1>Exoplanets</h1>
 
-      <table>
-      <caption>NASA has announced the discovery of over 1000 exoplanets—below are five important discoveries.</caption>
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Orbiting star</th>
-            <th scope="col">Year of discovery</th>
-            <th scope="col">Distance</th>
-            <th scope="col">Notes</th>
-          </tr>
-        <thead>
-        <tbody>
-          <tr>
-            <th scope="col">PSR B1257+12 A</th>
-            <th scope="col">Lich pulsar</th>
-            <th scope="col">1992</th>
-            <th scope="col">2300 ly</th>
-            <th scope="col">First confirmed exoplanet</th>
-          </tr>
+      <div class="table-wrapper scrollable">
+        <table class="push-0">
+          <caption class="mega">NASA has announced the discovery of over 1000 exoplanets—below are five important discoveries.</caption>
+          <thead>
+            <tr>
+              <th class="name" scope="col">Name</th>
+              <th class="star" scope="col">Orbiting star</th>
+              <th class="year" scope="col">Year of discovery</th>
+              <th class="distance" scope="col">Distance</th>
+              <th class="notes" scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="not-bold italic" scope="row">PSR B1257+12 A</th>
+              <td>Lich pulsar</td>
+              <td>1992</td>
+              <td>2300 ly</td>
+              <td>First confirmed exoplanet</td>
+            </tr>
 
-          <tr>
-            <th scope="col">Dimidium</th>
-            <th scope="col">51 Pegasi</th>
-            <th scope="col">1995</th>
-            <th scope="col">50 ly</th>
-            <th scope="col">First confirmed exoplanet orbiting a main-sequence star</th>
-          </tr>
+            <tr>
+              <th class="not-bold italic" scope="row">Dimidium</th>
+              <td>51 Pegasi</td>
+              <td>1995</td>
+              <td>50 ly</td>
+              <td>First confirmed exoplanet orbiting a main-sequence star</td>
+            </tr>
 
-          <tr>
-            <th scope="col">Osiris</th>
-            <th scope="col">HD 209458</th>
-            <th scope="col">2001</th>
-            <th scope="col">150 ly</th>
-            <th scope="col">First exoplanet with a confirmed atmosphere</th>
-          </tr>
+            <tr>
+              <th class="not-bold italic" scope="row">Osiris</th>
+              <td>HD 209458</td>
+              <td>2001</td>
+              <td>150 ly</td>
+              <td>First exoplanet witd a confirmed atmosphere</td>
+            </tr>
 
-          <tr>
-            <th scope="col">The Genesis planet</th>
-            <th scope="col">PSR B1620-26 & WD B1620-26</th>
-            <th scope="col">2003</th>
-            <th scope="col">12 400 ly</th>
-            <th scope="col">One of the oldest exoplanets yet discovered — ~12.7 B years old</th>
-          </tr>
+            <tr>
+              <th class="not-bold italic" scope="row">The Genesis planet</th>
+              <td>PSR B1620-26 & WD B1620-26</td>
+              <td>2003</td>
+              <td>12 400 ly</td>
+              <td>One of tde oldest exoplanets yet discovered — ~12.7 B years old</td>
+            </tr>
 
-          <tr>
-            <th scope="col">Kepler-438b</th>
-            <th scope="col">Kepler-438</th>
-            <th scope="col">2015</th>
-            <th scope="col">470 ly</th>
-            <th scope="col">1000th exoplanet discovered</th>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <th scope="row">Total</th>
-            <td scope="colspan">5</td>
-          </tr>
-        </tfoot>
-      </table>
+            <tr>
+              <th class="not-bold italic" scope="row">Kepler-438b</th>
+              <td>Kepler-438</td>
+              <td>2015</td>
+              <td>470 ly</td>
+              <td>1000td exoplanet discovered</td>
+            </tr>
+          </tbody>
+          <tfoot class="bold">
+            <tr>
+              <th scope="row">Total</th>
+              <td colspan="4">5</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
     </div>
   </main>
 
